@@ -2,6 +2,7 @@ import os
 
 '''a string'''
 
+# comment
 class Foo(object):
     def __init__(self, name):
         os.path.join('foo', 'bar')

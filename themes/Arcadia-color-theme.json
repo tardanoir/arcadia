@@ -80,6 +80,24 @@
 		"terminal.ansiBrightWhite": "#e4d4b4",
 		"quickInput.background": "#1f1f28",
 		"quickInput.foreground": "#d4c4a4",
+		"editor.compositionBorder":"#1f1f2800",
+		"sideBar.border": "#1f1f2800",
+		"sideBarSectionHeader.border": "#1f1f2800",
+		"focusBorder": "#1f1f2800",
+		"editorGroup.border": "#1f1f2800",
+		"sideBarTitle.border": "#1f1f2800",
+		"sideBarStickyScroll.border": "#1f1f2800",
+		"sideBarStickyScroll.shadow": "#1f1f2800",
+		"sideBarActivityBarTop.border": "#1f1f2800",
+		"profiles.sashBorder": "#1f1f2800",
+		"editorGroupHeader.tabsBorder": "#1f1f2800",
+		"tab.activeBorder": "#a6538000",
+		"editorCursor.background": "#1f1f28",
+		"window.activeBorder": "#a6538000",
+		"window.inactiveBorder": "#a6538000",
+		"panelStickyScroll.border": "#1f1f2800",
+		"panelSection.border": "#1f1f2800",
+		"editorOverviewRuler.border": "#1f1f2800",
 	},
 	"tokenColors": [
 		{
@@ -175,6 +193,38 @@
 			"settings": {
 				"foreground": "#6ab578"
 			}
-		}
+		},
+		// Python specific configurations:
+		{
+			"name": "Python function parameters",
+			"scope": ["source.python variable.parameter"],
+			"settings": {
+				"foreground": "#8fa8a5",
+			}
+		},
+		{
+			"name": "Python comment",
+			"scope": ["source.python comment"],
+			"settings": {
+				"foreground": "#88787F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Python begin comment",
+			"scope": ["source.python punctuation.definition.comment"],
+			"settings": {
+				"foreground": "#88787F",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Python begin comment",
+			"scope": ["source.python string.quoted.docstring.multi.python"],
+			"settings": {
+				"foreground": "#88787F",
+				"fontStyle": ""
+			}
+		},
 	]
 }
