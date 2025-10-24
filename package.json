@@ -1,11 +1,10 @@
 {
-  "name": "arcadia-theme",
-  "displayName": "Arcadia Dark",
-  "description": "A beautiful dark theme with warm colors",
-  "version": "1.0.0",
-  "publisher": "tardanoir",
+  "name": "arcadia",
+  "displayName": "Arcadia",
+  "description": "A color theme inspired by the \"Even in Arcadia\" album by Sleep Token",
+  "version": "0.0.1",
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.105.0"
   },
   "categories": [
     "Themes"
@@ -13,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Arcadia Dark",
+        "label": "Arcadia",
         "uiTheme": "vs-dark",
-        "path": "./arcadia-vscode-theme.json"
+        "path": "./themes/Arcadia-color-theme.json"
       }
     ]
   }
