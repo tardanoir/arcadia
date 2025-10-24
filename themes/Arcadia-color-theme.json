@@ -226,5 +226,15 @@
 				"fontStyle": ""
 			}
 		},
+		{
+			"name": "Python docstring punctuation",
+			"scope": [
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#88787F"
+			}
+		}
 	]
 }
