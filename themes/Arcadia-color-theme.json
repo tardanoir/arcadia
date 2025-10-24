@@ -235,6 +235,34 @@
 			"settings": {
 				"foreground": "#88787F"
 			}
+		},
+		{
+			"name": "Python Decorator (property, setter)",
+			"scope": [
+				"meta.function.decorator.python support.type.python",
+				"meta.function.decorator.python entity.name.function.decorator.python",
+			],
+			"settings": {
+				"foreground": "#6AB578"
+			}
+		},
+		{
+			"name": "Python Decorator Punctuation (@)",
+			"scope": [
+				"punctuation.definition.decorator.python"
+			],
+			"settings": {
+				"foreground": "#6AB578A6"
+			}
+		},
+		{
+			"name": "Python Regular Function Definition Name",
+			"scope": [
+				"meta.function.python entity.name.function.python"
+			],
+			"settings": {
+				"foreground": "#a65380"
+			}
 		}
 	]
 }
