@@ -1,0 +1,92 @@
+# Apoxymenos Dark Theme for Alacritty
+colors:
+  # Default colors
+  primary:
+    background: '#1F1F28'
+    foreground: '#D4C4A4'
+
+  # Normal colors
+  normal:
+    black:   '#1F1F28'
+    red:     '#D47474'
+    green:   '#6AB578'
+    yellow:  '#D4A574'
+    blue:    '#D86450'
+    magenta: '#A65380'
+    cyan:    '#74D4C4'
+    white:   '#D4C4A4'
+
+  # Bright colors
+  bright:
+    black:   '#545559'
+    red:     '#E48484'
+    green:   '#7AC588'
+    yellow:  '#E4B584'
+    blue:    '#E87460'
+    magenta: '#B66390'
+    cyan:    '#84E4D4'
+    white:   '#E4D4B4'
+
+  # Cursor colors
+  cursor:
+    text: '#1F1F28'
+    cursor: '#A65380'
+
+  # Selection colors
+  selection:
+    text: '#D4C4A4'
+    background: '#A6538033'
+
+  # Search colors
+  search:
+    matches:
+      foreground: '#1F1F28'
+      background: '#A6538066'
+    focused_match:
+      foreground: '#1F1F28'
+      background: '#8C4A69'
+
+  # Footer bar colors
+  footer_bar:
+    background: '#735862'
+    foreground: '#D4C4A4'
+
+  # Hints
+  hints:
+    start:
+      foreground: '#1F1F28'
+      background: '#D4A574'
+    end:
+      foreground: '#1F1F28'
+      background: '#D4A574'
+
+# Window configuration
+window:
+  opacity: 1.0
+  padding:
+    x: 8
+    y: 8
+
+# Font configuration
+font:
+  normal:
+    family: 'JetBrains Mono'
+    style: Regular
+  bold:
+    family: 'JetBrains Mono'
+    style: Bold
+  italic:
+    family: 'JetBrains Mono'
+    style: Italic
+  bold_italic:
+    family: 'JetBrains Mono'
+    style: Bold Italic
+  size: 12.0
+
+# Cursor configuration
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+# Live config reload
+live_config_reload: true

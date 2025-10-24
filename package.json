@@ -1,0 +1,22 @@
+{
+  "name": "arcadia-theme",
+  "displayName": "Arcadia Dark",
+  "description": "A beautiful dark theme with warm colors",
+  "version": "1.0.0",
+  "publisher": "tardanoir",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arcadia Dark",
+        "uiTheme": "vs-dark",
+        "path": "./arcadia-vscode-theme.json"
+      }
+    ]
+  }
+}
